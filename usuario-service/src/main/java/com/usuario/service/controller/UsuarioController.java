@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.usuario.service.entidades.Usuario;
+import com.usuario.service.feignclients.CarroFeignClient;
 import com.usuario.service.models.Carro;
 import com.usuario.service.models.Moto;
 import com.usuario.service.servicio.UsuarioService;
