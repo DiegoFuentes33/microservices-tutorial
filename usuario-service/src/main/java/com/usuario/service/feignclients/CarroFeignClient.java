@@ -20,5 +20,5 @@ public interface CarroFeignClient {
 	public Carro save(@RequestBody Carro carro);
 	
 	@GetMapping("/usuario/{usuarioid}")
-	public List<Carro> getCarros(@PathVariable("usuarioid") int usuarioid);
+	public List<Carro> getCarros(@PathVariable int usuarioid);
 }

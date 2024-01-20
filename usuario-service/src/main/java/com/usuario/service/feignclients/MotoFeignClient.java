@@ -19,5 +19,5 @@ public interface MotoFeignClient {
 	public Moto save(@RequestBody Moto moto);
 	
 	@GetMapping("/usuario/{usuarioid}")
-	public List<Moto> getMotos(@PathVariable("usuarioid") int usuarioid);
+	public List<Moto> getMotos(@PathVariable int usuarioid);
 }
